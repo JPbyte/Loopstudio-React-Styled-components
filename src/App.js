@@ -1,8 +1,13 @@
-import './App.css';
+import Home from './home/home';
+import GlobalStyle from './styles/GlobalStyle';
+
 
 function App() {
   return (
-    <h1>oi</h1>
+    <>
+      <GlobalStyle />
+      <Home />
+    </>
   );
 }
 
