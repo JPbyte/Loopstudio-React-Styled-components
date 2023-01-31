@@ -14,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
     }
 
+    button{
+        border: none;
+    }
+
     :root{
         --White: hsl(0, 0%, 100%);
         --Black: hsl(0, 0%, 0%);
