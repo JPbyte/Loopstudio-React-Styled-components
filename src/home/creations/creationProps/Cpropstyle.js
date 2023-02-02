@@ -31,7 +31,7 @@ export const Content = styled.div`
 
     @media screen and (max-width: 900px) {
         height: 10rem;
-        background-position: center;
+        background-position: initial;
         justify-content: flex-start;
             p{
                 margin-left: 1rem;

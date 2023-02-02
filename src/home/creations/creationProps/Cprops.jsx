@@ -19,7 +19,7 @@ export const CProps = (props) => {
             <Content image={DeepEarth} style={{backgroundPosition: "center", backgroundPositionY: "-17rem"}}>
                 <p>Deep Earth</p>
             </Content>
-            <Content image={Night}>
+            <Content image={Night} style={{backgroundPosition: "center"}}>
                 <p>Nigth arcade</p>
             </Content>
             <Content image={Soccer} style={{backgroundPosition: "initial"}}>

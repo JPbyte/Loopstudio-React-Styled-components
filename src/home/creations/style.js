@@ -5,11 +5,13 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 46rem;
+    height: 48rem;
+    margin-bottom: 3rem;
 
     @media screen and (max-width: 900px){
         height: 96rem;
         padding: 1rem;
+        margin-bottom: 2rem;
     }
 `;
 
@@ -43,13 +45,20 @@ export const Tbutton = styled.div`
                     transform: scale(1.05);
                 }
         }
+    @media screen and (max-width: 900px) {
+        height: 6rem;
+        flex-direction: column;
+            h3{
+                font-size: 2.1rem;
+            }
+    }
 `;
 
 //Div Mom grid//
 export const GridNow = styled.div`
     width: 100%;
     max-width: 52rem;
-    height: 41rem;
+    height: 43rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
