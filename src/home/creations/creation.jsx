@@ -1,11 +1,19 @@
 import React from "react";
+import { CProps } from "./creationProps/Cprops";
+import { GridNow, Section, Tbutton } from "./style";
 
 
 const Creation = () => {
     return(
-        <section className="creations-grid">
-            
-        </section>
+        <Section>
+            <Tbutton>
+                <h3>our creations</h3>
+                    <button>see all</button>
+            </Tbutton>
+            <GridNow>
+                <CProps />
+            </GridNow>
+        </Section>
     )
 }
 

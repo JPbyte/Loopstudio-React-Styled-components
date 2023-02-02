@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import logo from "../../images/logo.svg";
 import { HeaderL, HeaderUp, NavList } from "./style";
-import { TfiAlignCenter } from "react-icons/tfi";
 
+
+//images and icons//
+import { TfiAlignCenter } from "react-icons/tfi";
+import logo from "../../images/logo.svg";
 
 const Header = () => {
 
     const [showMenu, setMenu] = useState(false);
     
+    //function for hamburger buton//
     function toggle(){
         setMenu(!showMenu)
     }
