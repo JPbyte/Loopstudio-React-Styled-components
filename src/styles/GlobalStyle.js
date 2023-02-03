@@ -19,6 +19,11 @@ const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
 
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
     :root{
         --White: hsl(0, 0%, 100%);
         --Black: hsl(0, 0%, 0%);
