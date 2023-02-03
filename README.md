@@ -35,8 +35,8 @@ Desktop Design:
 
 ### Links
 
-- Solution URL: [Loopstudios landing page solution]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Loopstudios landing page solution](https://www.frontendmentor.io/solutions/responsive-loopstudio-using-react-DQ5MoLoT_e)
+- Live Site URL: [Add live site URL here](https://loopstudio-react-styled-components.vercel.app)
 
 ## My process
 
@@ -50,3 +50,4 @@ Desktop Design:
 
 ### What I learned
 
+I learn "Props" and reuse components to make it more dynamic
